@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "first",
-    "slug": "first",
+    "name": "DoneWithIt",
+    "slug": "DoneWithIt",
+    "scheme": "donewithit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +23,20 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "667db57c-e5e9-40ca-aba4-1f6f74bfb28a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/667db57c-e5e9-40ca-aba4-1f6f74bfb28a"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
